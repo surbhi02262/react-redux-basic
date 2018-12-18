@@ -1,0 +1,233 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+.footer-container{
+  height:200px;
+  background: #222;
+  line-height: 200px;
+  padding:20px;
+  font-size:18px;
+  padding-top: 40px;
+  color:white;
+  border-top:4px solid red; 
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+body{
+  margin:0;
+  padding:0;
+}
+.app-title{
+  font-size:26px;
+}
+.header{
+  display: flex;
+  background: #222;
+  padding:20px;
+  color:white;
+  border-bottom: 4px solid red;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Home */
+ .home {
+   background: #dbd3d347;
+   padding: 20px 10px;
+ }
+ .image-container {
+   display: flex;
+   flex-wrap: wrap;
+   position: relative;
+   justify-content: space-evenly;
+ }
+ .img-details {
+   flex-basis: 340px;
+   background: white;
+   margin: 10px auto;
+   box-shadow: 0 0 10px rgba(0,0,0,.5); 
+   border-radius: 4px;
+   overflow: hidden;
+   position: relative;
+ }
+ .img-holder {
+   width: 100%;
+   height: 400px;
+   position: relative;
+ }
+ .img-holder img {
+  width: 100%;
+  height: 100%;
+}
+.img-detail {
+  padding: 10px;
+  
+}
+.img-detail div{
+  padding: 4px 20px;
+}
+.title {
+  text-align: center;
+  border-bottom: 1px solid red;
+  padding: 5px 20px;
+  font-size: 20px;
+}
+.img-action-bar {
+  padding: 10px;
+  background: rgba(0,0,0,.7);
+  display: flex;
+  justify-content: space-between;
+}
+.img-action-bar button {
+  padding: 6px 25px;
+  font-size: 16px;
+  background: orange;
+  border-radius: 4px; 
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.home-header {
+ position: fixed;
+ top:8px;
+ right: 20px;
+ width: 60px;
+ height: 60px;
+ border-radius: 50%; 
+ outline: none;
+ 
+}
+.home-header a {
+  font-size: 36px;
+  outline: none;
+  background: lime;
+  border-radius: 50%; 
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 10px red;
+  border: 4px solid red;
+  padding:5px 15px;
+  text-decoration: none;
+}
+.container{
+  padding:20px 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.head-input-container{
+  flex-direction: column;
+  flex-basis: 400px;
+  background: teal;
+  padding:25px;
+  text-align: center;
+  
+  
+}
+.form-header{
+  font-size: 25px;
+  color:white;
+  padding:10px;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+.input-container{
+  display: flex;
+  padding:0px 10px;
+  flex-grow: 1;
+
+}
+.input-container input{
+  margin:10px 0px;
+  padding:10px;
+  flex-grow: 1;
+  font-size: 15px;
+}
+.button-container button{
+  padding:10px 30px;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  background: #24CCCB;
+  color:white;
+  font-size: 18px;
+
+}
+.button-container{
+padding:0px 10px;
+padding-top:20px;
+}
+
+.img-details .img-holder button{
+  color:red;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  font-size: 18px;
+  display: none;
+  background: rgba(0,0,0,.5);  
+}
+.img-details:hover  .img-holder button {
+  display: block;
+}
+.popup {
+  position: fixed;
+  z-index: 1000;
+}
+.app-title {
+  flex-grow: 1;
+}
+.add {
+  margin-right: 100px;
+  line-height: 30px;
+}
+.add a {
+  text-decoration: none;
+  color:white;
+}
+.calculator-container{
+  display: flex;
+  justify-content: space-around;
+}
+.calculate,.results{
+  flex-grow: 1;
+  background: #61dafb;
+  margin:10px;
+  flex-basis: 300px;
+}
+.add-conatiner{
+  display: flex;
+}
+.btn-container{
+  display: flex;
+  align-items: center;
+}
+.btn-container button{
+  padding: 10px 15px;
+  border-radius:5px;
+  font-size: 18px;
+  outline:none;
+}
